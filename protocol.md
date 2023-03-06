@@ -11,7 +11,12 @@
     - [JS create element](https://github.com/neuefische/cgn-web-23-1/blob/main/sessions/js-createelement/js-createelement.md)
 
 ![card component](assets/cardcomponent.png)
-
+  - HTML ausgelagert in Card.js
   - Card Basic Function
 
 ![card basic functiion](assets/card-basic-function.png)
+
+  - Fetch Character
+
+    - [JS Fetch](https://github.com/neuefische/cgn-web-23-1/blob/main/sessions/js-fetch/js-fetch.md)
+    - [JS Async Function](https://github.com/neuefische/cgn-web-23-1/blob/main/sessions/js-async-functions/js-async-functions.md)
