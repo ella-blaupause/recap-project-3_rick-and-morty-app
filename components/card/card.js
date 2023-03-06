@@ -1,20 +1,13 @@
-export function createCharacterCard(input
-    ) {     
-    const image = input
-    .image;
-    const name = input
-    .name;
-    const status = input
-    .status;
-    const type = input
-    .type;
-    const occurrences = input
-    .episode.length;
-    console.log(input
-        );
-    const card = document.createElement("li");
-    card.classList.add("card");
-    card.innerHTML = `  <div class="card__image-container">
+export function createCharacterCard(input) {
+  const image = input.image;
+  const name = input.name;
+  const status = input.status;
+  const type = input.type;
+  const occurrences = input.episode.length;
+
+  const card = document.createElement("li");
+  card.classList.add("card");
+  card.innerHTML = `  <div class="card__image-container">
     <img
       class="card__image"
       src="${image}"
@@ -32,6 +25,6 @@ export function createCharacterCard(input
       <dt class="card__info-title">Occurrences</dt>
       <dd class="card__info-description">${occurrences}</dd>
     </dl>
-  </div>`  
-  return card ;
+  </div>`;
+  return card;
 }
