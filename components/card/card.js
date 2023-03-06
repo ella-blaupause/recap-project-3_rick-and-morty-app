@@ -4,8 +4,8 @@ export function createCharacterCard(input) {
   const status = input.status;
   const type = input.type;
   const occurrences = input.episode.length;
-
   const card = document.createElement("li");
+
   card.classList.add("card");
   card.innerHTML = `  <div class="card__image-container">
     <img
