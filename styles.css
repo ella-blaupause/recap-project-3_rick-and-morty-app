@@ -78,7 +78,6 @@ main {
 }
 
 .header {
-  background-color: #131228;
   display: flex;
   justify-content: center;
   height: 10%;
