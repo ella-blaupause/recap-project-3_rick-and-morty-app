@@ -4,7 +4,7 @@
 
 ##### 10:00 - 10:30 Projektbesprechung
 
-##### 10:30 - ---- Card Component
+##### 10:30 - 12:45 Card Component
   - Teamarbeit
   - "createElement" mit innerHTML 
     
