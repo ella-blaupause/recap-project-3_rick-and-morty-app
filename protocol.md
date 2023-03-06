@@ -38,3 +38,9 @@
   - Pagination Page Number
 
 ![prev button](assets/prevButton.png)
+
+##### 15:30 - 16:00 Search Bar
+
+![Search Bar](assets/SearchBar.png)
+
+##### 16:00 - 16:00 Search Function
