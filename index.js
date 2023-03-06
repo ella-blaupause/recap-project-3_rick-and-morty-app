@@ -17,21 +17,20 @@ let page = 1;
 let searchQuery = "";
 
 //Buttons
-
 nextButton.addEventListener("click", () => {
   if (page <= maxPage - 1) {
     page++;
     pagination.textContent = `${page}/42`;
+    fetchCharacter();
   }
-  fetchCharacter();
 });
 
 prevButton.addEventListener("click", () => {
   if (page > 1) {
     page--;
     pagination.textContent = `${page}/42`;
+    fetchCharacter();
   }
-  fetchCharacter();
 });
 
 //fetching data
