@@ -24,3 +24,5 @@
 ![fetch](assets/fetch.png)
 ![fetch](assets/fetch-2.png)
 ![fetch](assets/forEach.png)
+
+##### 14:40 - ---- Pagination
