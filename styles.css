@@ -78,8 +78,10 @@ main {
 }
 
 .header {
+  background-color: #131228;
   display: flex;
   justify-content: center;
+  height: 10%;
 }
 .header__image {
   height: 60px;
@@ -87,6 +89,7 @@ main {
 
 main {
   background-image: url(/assets/812062.png);
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
 
 }
