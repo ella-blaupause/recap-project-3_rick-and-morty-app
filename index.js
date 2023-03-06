@@ -11,19 +11,21 @@ const prevButton = document.querySelector('[data-js="button-prev"]');
 const nextButton = document.querySelector('[data-js="button-next"]');
 const pagination = document.querySelector('[data-js="pagination"]');
 
-//dynamitc created
-const createCard = createCharacterCard();
-cardContainer.append(createCard);
 
 //fetching data
 async function fetchCharacter() {
   const response = await fetch("https://rickandmortyapi.com/api/character");
   const data = await response.json();
-  console.log(data);
-  return data;
-}
-
+  const characters = data.results;     
+  cardContainer.innerHTML = ""; 
+  characters.forEach((character) => {    
+  const createCard = createCharacterCard(character);    
+  console.log(character);
+  cardContainer.append(createCard);
+  });
+};
 fetchCharacter();
+
 
 //states
 const maxPage = 1;
