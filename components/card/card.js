@@ -34,4 +34,4 @@ export function createCharacterCard(input
     </dl>
   </div>`  
   return card ;
-};
+}
