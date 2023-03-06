@@ -14,7 +14,7 @@
   - HTML ausgelagert in Card.js
   - Card Basic Function
 
-![card basic functiion](assets/card-basic-function.png)
+![card basic function](assets/card-basic-function.png)
 
   - Fetch Character
 
@@ -23,6 +23,18 @@
 
 ![fetch](assets/fetch.png)
 ![fetch](assets/fetch-2.png)
-![fetch](assets/forEach.png)
+![forEach](assets/forEach.png)
 
-##### 14:40 - ---- Pagination
+##### 14:40 - 15:15 Pagination
+
+  - Next Button
+  - Set max page
+  - Eventlistener
+
+![state](assets/state.png)
+![next button](assets/nextButton.png)
+
+  - Previous Button
+  - Pagination Page Number
+
+![prev button](assets/prevButton.png)
