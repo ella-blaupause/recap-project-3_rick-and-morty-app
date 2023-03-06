@@ -19,5 +19,6 @@ export function createCharacterCard() {
       <dt class="card__info-title">Occurrences</dt>
       <dd class="card__info-description">51</dd>
     </dl>
-  </div>`    ;
+  </div>`  
+  return card ;
 }
