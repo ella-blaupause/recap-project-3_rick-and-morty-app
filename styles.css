@@ -84,3 +84,9 @@ main {
 .header__image {
   height: 60px;
 }
+
+main {
+  background-image: url(/assets/812062.png);
+  background-size: contain;
+
+}
