@@ -20,3 +20,7 @@
 
     - [JS Fetch](https://github.com/neuefische/cgn-web-23-1/blob/main/sessions/js-fetch/js-fetch.md)
     - [JS Async Function](https://github.com/neuefische/cgn-web-23-1/blob/main/sessions/js-async-functions/js-async-functions.md)
+
+![fetch](assets/fetch.png)
+![fetch](assets/fetch-2.png)
+![fetch](assets/forEach.png)
