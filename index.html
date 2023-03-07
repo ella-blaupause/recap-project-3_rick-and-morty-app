@@ -8,20 +8,18 @@
     />
     <title>Rick and Morty Character Log</title>
     <link rel="stylesheet" href="./styles.css" />
-    <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <h1 class="title">Rick and More</h1>
+    <header>
+      <a href="index.html">
+        <img class="logo" src="/assets/Rick_and_Morty.svg.png" />
+      </a>
+      <div class="search-bar-container" data-js="search-bar-container"></div>
+    </header>
     <main>
-      <div class="search-bar-container" data-js="search-bar-container">
-        <!-- ausgelagert in search-bar.js-->
-      </div>
-      <ul class="card-container" data-js="card-container">
-        <!-- ausgelagert in card.js -->
-      </ul>
+      <ul class="card-container" data-js="card-container"></ul>
     </main>
-    <nav class="navigation" data-js="navigation">
-      <!-- ausgelagert in nav-pagination.js und nav-buttons.js-->
-    </nav>
+    <nav class="navigation" data-js="navigation"></nav>
   </body>
+  <script type="module" src="./index.js"></script>
 </html>

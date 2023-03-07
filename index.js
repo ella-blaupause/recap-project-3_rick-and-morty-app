@@ -17,6 +17,7 @@ const pagination = createPagination();
 //states
 let maxPage = 42;
 let page = 1;
+let randomPage;
 let searchQuery = "";
 
 // The Search Bar
@@ -26,6 +27,14 @@ searchBar.addEventListener("submit", (onSubmit) => {
   page = 1;
   fetchCharacter();
 });
+
+// Start at a random page on page load
+function generateRandomPage() {
+  randomPage = Math.floor(Math.random() * maxPage) + 1;
+  return randomPage;
+}
+
+page = generateRandomPage();
 
 //fetching data
 async function fetchCharacter() {
@@ -57,18 +66,16 @@ fetchCharacter();
 nextButton.addEventListener("click", () => {
   if (page <= maxPage - 1) {
     page++;
-    fetchCharacter();
+    fetchCharacter(page);
   }
 });
 
 prevButton.addEventListener("click", () => {
   if (page > 1) {
     page--;
-    fetchCharacter();
+    fetchCharacter(page);
   }
 });
 
 searchBarContainer.append(searchBar);
 navigation.append(prevButton, pagination, nextButton);
-
-// pagination.textContent = `${page} / ${maxPage}`;
